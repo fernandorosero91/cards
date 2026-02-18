@@ -40,11 +40,11 @@ export default function Home() {
 
       {/* Card San Francisco */}
       <article className="relative bg-white rounded-[40px] shadow-xl overflow-hidden w-[340px] h-[600px] border-8 border-white flex flex-col">
-        <figure className="relative h-[340px] overflow-hidden">
+        <figure className="relative h-[340px] overflow-hidden m-4 mb-0">
           <img
             src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80"
             alt="San Francisco Golden Gate Bridge"
-            className="w-full h-full object-cover rounded-t-[32px]"
+            className="w-full h-full object-cover rounded-3xl"
           />
         </figure>
         <section className="p-6 pt-8 flex-1 flex flex-col">
