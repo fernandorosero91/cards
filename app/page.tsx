@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-200 flex flex-col lg:flex-row items-center justify-center gap-8 p-8">
       {/* Card New York */}
-      <article className="relative bg-white rounded-[40px] shadow-xl overflow-hidden w-[340px] h-[600px] border-8 border-white">
+      <section className="relative bg-white rounded-[40px] shadow-xl overflow-hidden w-[340px] h-[600px] border-8 border-white">
         <figure className="relative h-full overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80"
@@ -36,10 +36,10 @@ export default function Home() {
             </button>
           </figcaption>
         </figure>
-      </article>
+      </section>
 
       {/* Card San Francisco */}
-      <article className="relative bg-white rounded-[40px] shadow-xl overflow-hidden w-[340px] h-[600px] border-8 border-white flex flex-col">
+      <section className="relative bg-white rounded-[40px] shadow-xl overflow-hidden w-[340px] h-[600px] border-8 border-white flex flex-col">
         <figure className="relative h-[300px] overflow-hidden mt-1 mx-1 mb-0">
           <img
             src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80"
@@ -75,7 +75,7 @@ export default function Home() {
             </button>
           </nav>
         </section>
-      </article>
+      </section>
     </div>
   );
 }
